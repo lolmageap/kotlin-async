@@ -40,16 +40,19 @@ private suspend fun grindCoffee() {
     delay(1000)
     logger.debug { "커피 가루 추출" }
 }
+
 private suspend fun brewCoffee() {
     logger.debug { "커피 내리기" }
     delay(1000)
     logger.debug { "커피 원액 추출" }
 }
+
 private suspend fun boilMilk() {
     logger.debug { "우유 끓이기" }
     delay(1000)
     logger.debug { "데운 우유 추출" }
 }
+
 private suspend fun formMilk() {
     logger.debug { "우유 거품내기" }
     delay(1000)
